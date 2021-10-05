@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      <h2>Profile</h2>
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,38 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <div class="container">
+    <ion-card>
+      <ion-item>
+        <ion-avatar class="avatar">
+          <ion-img src="assets/images/1.jpg" ></ion-img>
+        </ion-avatar>
+      </ion-item>
+      <div class="card-title">Mel mark Dela cruz</div>
+    </ion-card>
+  </div>
+
+  <div>
+    <ion-card>
+      <ion-item>
+          <ion-label>Facebook</ion-label>
+          <ion-chip outline="true" color="success"><ion-label>Active</ion-label></ion-chip>
+      </ion-item>
+      <ion-item>
+        <ion-label>Instagram</ion-label>
+        <ion-chip outline="true" color="success"><ion-label>Active</ion-label></ion-chip>
+    </ion-item>
+    <ion-item>
+      <ion-label>twitter</ion-label>
+      <ion-chip outline="true" color="danger">
+      <ion-label>Active</ion-label>
+      </ion-chip>
+    </ion-item>
+    <ion-item>
+      <ion-label>messenger</ion-label>
+        <ion-chip outline="true" color="success"><ion-label>Active</ion-label></ion-chip>
+      </ion-item>
+    
+    </ion-card>
+  </div>
 </ion-content>
